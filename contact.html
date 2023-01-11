@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+
+  <body>
+    <div class="ContactContainer">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="/"> My Intro </a></li>
+            <li><a href="/Qualification.html">My Qualification </a></li>
+            <li><a href="/Skills.html">Skills and Projects </a></li>
+            <li><a href="/contact.html">Connect with me </a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main">
+        <div class="InfoContact">
+          <div class="connectMe">
+            <div class="contactMe">Connect with Me :)</div>
+            <div class="ContactForm">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      style="width: 15vw; margin: auto"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      style="width: 15vw"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                      style="width: 35vw; margin: 20px 40px"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <select
+                      class="custom-select"
+                      style="width: auto; margin: 0px 0px 0px 40px"
+                      required
+                    >
+                      <option selected>India (+91)</option>
+                      <option data-countryCode="CY" value="357">
+                        Cyprus South (+357)
+                      </option>
+                      <option data-countryCode="CZ" value="42">
+                        Czech Republic (+42)
+                      </option>
+                      <option data-countryCode="DK" value="45">
+                        Denmark (+45)
+                      </option>
+                      <option data-countryCode="DJ" value="253">
+                        Djibouti (+253)
+                      </option>
+                      <option data-countryCode="DM" value="1809">
+                        Dominica (+1809)
+                      </option>
+                      <option data-countryCode="DO" value="1809">
+                        Dominican Republic (+1809)
+                      </option>
+                      <option data-countryCode="EC" value="593">
+                        Ecuador (+593)
+                      </option>
+                      <option data-countryCode="EG" value="20">
+                        Egypt (+20)
+                      </option>
+                      <option data-countryCode="GU" value="671">
+                        Guam (+671)
+                      </option>
+                      <option data-countryCode="IS" value="354">
+                        Iceland (+354)
+                      </option>
+                      <option data-countryCode="IN" value="91">
+                        India (+91)
+                      </option>
+                      <option data-countryCode="ID" value="62">
+                        Indonesia (+62)
+                      </option>
+                      <option data-countryCode="IR" value="98">
+                        Iran (+98)
+                      </option>
+                      <option data-countryCode="IQ" value="964">
+                        Iraq (+964)
+                      </option>
+                    </select>
+                  </div>
+                  <div class="col">
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder="Your Contact Number"
+                      style="width: 15vw; margin: 0px"
+                      required
+                      min="10"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      style="margin: 20px 0px 10px 40px; width: 35vw"
+                      required
+                    >
+                    </textarea>
+                  </div>
+                </div>
+
+                <div class="ContactButton">
+                  <button id="submitForm">Submit</button>
+                  <script>
+                    $("#submitForm").click(function () {
+                      alert("Thankyou for connecting, Have a great day!");
+                    });
+                  </script>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="social">
+            <div class="socialIcon">
+              <a href="https://www.facebook.com/ishika.raj.140" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/in/ishikashree/" class="fa fa-linkedin"></a>
+              <a href="https://www.instagram.com/_.ishika.17_/" class="fa fa-instagram"></a>
+          </div>
+          <div class="emailConnect">You can also connect me via <span><i><a href="https://mail.google.com/" style="color: black;">rajishika436@gmail.com</a></i>                     </span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

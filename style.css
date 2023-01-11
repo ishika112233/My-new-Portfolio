@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Source+Sans+Pro:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #90a4ae;
+  width: 20vw;
+  height: 210vh;
+  font-family: "Kalam", cursive;
+  position: relative;
+  overflow-y: auto;
+}
+
+.sidebar nav {
+  padding: 50px;
+  list-style: none;
+  
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 30px 0px;
+}
+
+.sidebar nav li a:hover {
+  font-size: 25px;
+}
+
+.sidebar nav li a:visited {
+    color: black;
+  }
+
+.sidebar nav li a {
+  text-decoration: none;
+}
+
+.main {
+  /*background-color: #cfd8dc; */
+  width: 80vw;
+}
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  /*background-color: #78909c; */
+  height: 40vh;
+  width: 70vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.Hello {
+  font-size: 50px;
+}
+
+.Name {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.About {
+  font-size: 30px;
+}
+
+.Buttons {
+  margin-top: 20px;
+}
+
+.Buttons button {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  margin: 0px 8px;
+}
+
+.Buttons button:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  background: #90a4ae;
+  color: black;
+}
+
+.devPic img {
+  width: 220px;
+  height: 40vh;
+  border-radius: 50%;
+}
+
+.AboutMore {
+  font-size: 15px;
+  font-family: "Kalam", cursive;
+}
+
+.ContactContainer{
+    display: flex;
+}
+
+.InfoContact{
+    height: 75vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.connectMe{
+    
+    width: 60vw;
+}
+
+.contactMe{
+    font-size: 40px;
+    font-family: "Kalam", cursive;
+    text-align: center;
+    padding: 40px;
+}
+.social{
+    width: 40vw;
+    border-radius: 30px;
+}
+
+.socialIcon{
+    margin-top: 100px;
+    padding: 120px 120px 5px 120px;
+}
+
+.ContactButton {
+    margin-top: 10px 0px 10px 0px;
+    padding: 10px;
+  }
+  
+  .ContactButton button {
+    padding: 9px 14px;
+    border-radius: 12px;
+    color: white;
+    width: 10vw;
+    background-color: black;
+    font-size: 15px;
+    margin-left: 220px;
+    
+  }
+  
+  .ContactButton button:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    background: #90a4ae;
+    color: black;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.8;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #cf3e87;
+    color: white;
+  }
+  
+  .emailConnect :hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .Qualification1{
+    display: flex;
+    width:60vw;
+    height: 30vh;
+    margin:100px;
+  }
+
+  .study1{
+    width: 40vw;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px rgb(193, 196, 193) solid;
+    border-radius: 10px;
+  }
+
+  .study1:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  
+  }
+
+  .study1summary{
+    font-size: 15px;
+    text-align:left;
+    padding-left: 90px;
+    text-decoration: none;
+    font-weight:bolder;
+  }
+  .image1{
+    width: 20vw;
+  }
+
+  .TechnicalSkills{
+    margin-left: 350px;
+  }
+
+
+
+  .skill1{
+    width: 20vw;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px rgb(193, 196, 193) solid;
+    border-radius: 10px;
+  }
+
+  .skill1:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  
+  }
+
+  .workExperience{
+    padding: 80px;
+    border: 2px solid rgb(193, 196, 193);
+    border-radius: 10px;
+  }
+
+  .workExperience:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  
+
+  }
+  .experience1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .details1{
+    color: rgb(156, 187, 177);
+  }
+
+  .tasks1{
+    color: black;
+    font-size: 18px;
+  }
+
+  .SkillContainer{
+    display:flex;
+  }
+
+  .project1{
+    padding: 40px;
+    border: 2px solid rgb(193, 196, 193);
+    border-radius: 10px;
+  }
+
+  .project1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  
+
+  }
